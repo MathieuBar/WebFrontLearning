@@ -1,49 +1,26 @@
 body {
     font-family: Verdana;
 }
-
 .accessibility {
     position: absolute;
     left: -15000px;
 }
-
 main h1 {
     color: red;
     text-align: right;
 }
-
-main p:first-of-type::first-line {
-    font-size: 20px;
-}
-
-#mainHeader, label {
+#mainHeader, #mainFooter{
     background-color: red;
 }
-
 #mainHeader > h1 {
     color: brown;
 }
-
-#mainNav a:link {
-    color: pink;
-}
-
-#mainNav a:visited {
+#mainNav a{
     color: white;
 }
-
-#mainNav a:hover {
+#mainNav a:hover{
     color: brown;
 }
-
-#mainNav a:active {
-    color: yellow;
-}
-
-#frmContact input[type=text] {
-    color: chartreuse;
-}
-
-aside h1 {
+aside h1{
     color: green;
 }
