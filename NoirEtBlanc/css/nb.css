@@ -41,6 +41,10 @@ body {
     background: url(/images/image-1.jpg) center center / cover no-repeat fixed;
 }
 
+main {
+    background-color: var(--tWhite);
+}
+
 #leftCol h1 {
     color: var(--green);
     text-align: right;
